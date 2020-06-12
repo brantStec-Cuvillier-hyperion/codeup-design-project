@@ -8,14 +8,22 @@ body {
     background-color: #E6563B;
 }
 
+h1, h2  {
+    font-family:'Anton', sans-serif;
+    text-align: center;
+}
+
 .circle {
+    font-family:'Anton', sans-serif;
     width: 105px;
     height: 105px;
+    margin-top: 10px;
     border-radius: 50%;
     /*font-size: 50px;*/
     color: #fff;
     /*line-height: 500px;*/
     text-align: center;
+    border: 5px solid white;
 }
 
 .red-color {
@@ -33,4 +41,48 @@ body {
 .blue-color {
     background-color: #00ABA9;
 }
+hr {
+    height: 10px;
+    width: 60%;
+    color: #E6E6E6
+}
 
+h5 {
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+}
+
+.image {
+    height: 150px;
+    width: 250px;
+    object-fit: cover;
+    border: 5px solid #E6E6E6;
+}
+p {
+    font-family: 'Abel', sans-serif;
+}
+
+.small {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: small;
+    border-style: none;
+    margin: 0 4px 4px 0;
+}
+
+@media screen and (max-width: 578px) {
+    .xsm-center {
+        text-align: center !important;
+    }
+    .center-justify {
+        justify-content: center !important;
+    }
+}
+
+.small-img {
+    height: 64px;
+    width: 64px;
+}
