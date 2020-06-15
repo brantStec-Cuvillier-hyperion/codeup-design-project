@@ -8,7 +8,7 @@ body {
     background-color: #E6563B;
 }
 
-h1, h2  {
+h1, h2, h3  {
     font-family:'Anton', sans-serif;
     text-align: center;
 }
@@ -49,7 +49,7 @@ hr {
 
 h5 {
     font-family: 'Abel', sans-serif;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .image {
@@ -86,3 +86,4 @@ p {
     height: 64px;
     width: 64px;
 }
+
